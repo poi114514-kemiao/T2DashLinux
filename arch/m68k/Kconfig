@@ -72,7 +72,7 @@ source "init/Kconfig"
 source "kernel/Kconfig.freezer"
 
 config MMU
-	bool "MMU-based Paged Memory Management Support"
+	bool "MMU-based Paged Memory Management Support(This option will make you very annoying linux)"
 	default y
 	help
 	  Select if you want MMU-based virtualised addressing space
