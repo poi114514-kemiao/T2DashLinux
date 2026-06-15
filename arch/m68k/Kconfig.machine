@@ -2,12 +2,8 @@ comment "Machine Types"
 
 if M68KCLASSIC
 
-config AMIGA-CA500
-	bool "Amiga500 support"
-	help
-	   Amiga500's support
-config AMIGA-MMU
-	bool "Amiga support"
+config AMIGA
+	bool "Amiga support(amiga500 use fastcard)"
 	depends on MMU
 	select MMU_MOTOROLA if MMU
 	help
